@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Flash</title>
+    <!-- Connection with javascript -->
+
 </head>
 
 <body>
@@ -13,6 +15,12 @@
     <div class="intro-container">
         <h1 class="title-app">¿Qué tan fan de Flash eres?</h1>
         <p class="">Descubré cuanto sabes del hombre más veloz del mundo</p>
+    </div>
+    <!--************************* result section **********************************-->
+    <div class="result">
+        <div class="result-container">
+            <p>Tu eres<span class="text-result">0%</span> fan de Flash</p>
+        </div>
     </div>
     <!-- quiz section -->
     <form class="quiz-form" action="app.js" name="form">
@@ -22,6 +30,7 @@
                     1. ¿Cúal es el nombre del primer Flash?
                 </p>
                 <div class="form-check">
+                    <!-- checked marca una por defecto -->
                     <input type="radio" name="q1" value="A" checked="">
                     <label class="form-check-label">
                         Bart Allen
@@ -70,7 +79,7 @@
             </div>
             <div class="quiz-form-container">
                 <p class="question">
-                    4. ¿En cúal ciudad se desarrolla la hitoria de Flash?
+                    4. ¿En cúal ciudad se desarrolla la historia de Flash?
                 </p>
                 <div class="form-check">
                     <input type="radio" name="q4" value="A" checked="">
@@ -107,7 +116,6 @@
             <input type="submit" class="btn-form">
         </div>
     </form>
-    <!-- Connection with javascript -->
     <script src="app.js"></script>
 </body>
 
