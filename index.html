@@ -6,116 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Flash</title>
-    <!-- Connection with javascript -->
-
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
     <!-- Top section -->
     <div class="intro-container">
         <h1 class="title-app">¿Qué tan fan de Flash eres?</h1>
-        <p class="">Descubré cuanto sabes del hombre más veloz del mundo</p>
+        <p class="">Descubré cuánto sabes del hombre más veloz de la Tierra</p>
     </div>
-    <!--************************* result section **********************************-->
-    <div class="result">
+    <!-- Result section -->
+    <div class="div">
         <div class="result-container">
-            <p>Tu eres<span class="text-result">0%</span> fan de Flash</p>
+            <p>Eres <span class="score">0%</span> fan de Flash</p>
         </div>
     </div>
     <!-- quiz section -->
-    <form class="quiz-form" action="app.js" name="form">
-        <div class="form-container">
+    <div class="quiz-form-center">
+        <form class="quiz-form" action="app.js" name="form">
             <div class="quiz-form-container">
-                <p class="question">
-                    1. ¿Cúal es el nombre del primer Flash?
-                </p>
-                <div class="form-check">
-                    <!-- checked marca una por defecto -->
-                    <input type="radio" name="q1" value="A" checked="">
-                    <label class="form-check-label">
-                        Bart Allen
-                    </label>
+                <div class="quiz-form-container">
+                    <p class="question">
+                        1. ¿Cúal es el nombre del primer Flash?
+                    </p>
+                    <div class="form-check">
+                        <!-- checked marca una por defecto -->
+                        <input type="radio" name="q1" value="A" checked="">
+                        <label class="form-check-label">
+                            Bart Allen
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q1" value="B" checked="">
+                        <label class="form-check-label">
+                            Barry Allen
+                        </label>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <input type="radio" name="q1" value="B" checked="">
-                    <label class="form-check-label">
-                        Barry Allen
-                    </label>
+                <div class="quiz-form-container">
+                    <p class="question">
+                        2. ¿Cuál de estos personajes es importante en los comics?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q2" value="A" checked="">
+                        <label class="form-check-label">
+                            Harrison Wells
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q2" value="B" checked="">
+                        <label class="form-check-label">
+                            Captain Cold
+                        </label>
+                    </div>
+                </div>
+                <div class="quiz-form-container">
+                    <p class="question">
+                        3. ¿Quién interpreta a Flash en la serie?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q3" value="A" checked="">
+                        <label class="form-check-label">
+                            Grant Gustin
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q3" value="B" checked="">
+                        <label class="form-check-label">
+                            Ezra Miller
+                        </label>
+                    </div>
+                </div>
+                <div class="quiz-form-container">
+                    <p class="question">
+                        4. ¿En cúal ciudad se desarrolla la historia de Flash?
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q4" value="A" checked="">
+                        <label class="form-check-label">
+                            Central City
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q4" value="B" checked="">
+                        <label class="form-check-label">
+                            Metropolis
+                        </label>
+                    </div>
+                </div>
+                <div class="quiz-form-container">
+                    <p class="question">
+                        5. Los comics de flash son publicados por:
+                    </p>
+                    <div class="form-check">
+                        <input type="radio" name="q5" value="A" checked="">
+                        <label class="form-check-label">
+                            Marvel Comics
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q5" value="B" checked="">
+                        <label class="form-check-label">
+                            DC comics
+                        </label>
+                    </div>
                 </div>
             </div>
-            <div class="quiz-form-container">
-                <p class="question">
-                    2. ¿Cuál de estos personajes es importante en los comics?
-                </p>
-                <div class="form-check">
-                    <input type="radio" name="q2" value="A" checked="">
-                    <label class="form-check-label">
-                        Harrison Wells
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" name="q2" value="B" checked="">
-                    <label class="form-check-label">
-                        Captain Cold
-                    </label>
-                </div>
+            <div class="input">
+                <input type="submit" class="btn">
             </div>
-            <div class="quiz-form-container">
-                <p class="question">
-                    3. ¿Quién interpreta a Flash en la serie?
-                </p>
-                <div class="form-check">
-                    <input type="radio" name="q3" value="A" checked="">
-                    <label class="form-check-label">
-                        Grant Gustin
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" name="q3" value="B" checked="">
-                    <label class="form-check-label">
-                        Ezra Miller
-                    </label>
-                </div>
-            </div>
-            <div class="quiz-form-container">
-                <p class="question">
-                    4. ¿En cúal ciudad se desarrolla la historia de Flash?
-                </p>
-                <div class="form-check">
-                    <input type="radio" name="q4" value="A" checked="">
-                    <label class="form-check-label">
-                        Central City
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" name="q4" value="B" checked="">
-                    <label class="form-check-label">
-                        Metropolis
-                    </label>
-                </div>
-            </div>
-            <div class="quiz-form-container">
-                <p class="question">
-                    5. Los comics de flash son publicados por:
-                </p>
-                <div class="form-check">
-                    <input type="radio" name="q5" value="A" checked="">
-                    <label class="form-check-label">
-                        Marvel Comics
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" name="q5" value="B" checked="">
-                    <label class="form-check-label">
-                        DC comics
-                    </label>
-                </div>
-            </div>
-        </div>
-        <div class="input">
-            <input type="submit" class="btn-form">
-        </div>
-    </form>
+        </form>
+    </div>
+    <!-- Result section -->
     <script src="app.js"></script>
 </body>
 

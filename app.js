@@ -18,9 +18,14 @@ form.addEventListener("submit", notReload => {
         }
     });
     console.log(score)
-    
-    let finalScore = document.querySelector('.result span');
 
-    // show score on page
+    //  show score on page
+    const div = document.querySelector(".div");
+    let finalScore = document.querySelector(".score");
+    // Delete class 'div' to display score
+    div.classList.remove("div");
+    //Display the result
     finalScore.textContent = `${score}%`;
+
 })
+
